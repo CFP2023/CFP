@@ -27,7 +27,7 @@ python train_baseline_RepVGGA0.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 
 ```shell
@@ -35,7 +35,7 @@ python train_class_balance_RepVGGA0.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 
 ```shell
@@ -51,7 +51,7 @@ python train_baseline_RepVGGA0.py \
 --dataset X-SDD \
 --input_size 128 \
 --num_classes 7 \
---gpu 2
+--gpu 6
 ```
 
 ```shell
@@ -59,7 +59,7 @@ python train_class_balance_RepVGGA0.py \
 --dataset X-SDD \
 --input_size 128 \
 --num_classes 7 \
---gpu 2
+--gpu 6
 ```
 
 #### VGG-16 on GC10-DET dataset
@@ -68,7 +68,7 @@ python train_baseline_VGG.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 
 ```shell
@@ -76,7 +76,7 @@ python train_class_balance_VGG.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 #### VGG-16 on X-SDD dataset
 ```shell
@@ -84,7 +84,7 @@ python train_baseline_VGG.py \
 --dataset X-SDD \
 --input_size 128 \
 --num_classes 7 \
---gpu 2
+--gpu 6
 ```
 
 ```shell
@@ -92,7 +92,7 @@ python train_class_balance_VGG.py \
 --dataset X-SDD \
 --input_size 128 \
 --num_classes 7 \
---gpu 2
+--gpu 6
 ```
 
 #### DDDN on GC10-DET dataset
@@ -101,14 +101,14 @@ python train_baseline_DDDN.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 ```shell
 python train_class_balance_DDDN.py \
 --dataset GC10-DET \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 
 #### DDDN on X-SDD dataset
@@ -117,14 +117,14 @@ python train_baseline_DDDN.py \
 --dataset X-SDD \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 ```shell
 python train_class_balance_DDDN.py \
 --dataset X-SDD \
 --input_size 224 \
 --num_classes 10 \
---gpu 2
+--gpu 6
 ```
 
 ### 2. Generate Feature Maps.
@@ -179,7 +179,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_RepVGG-A0 \
 --hierarchical_conv_prefix ./HC_RepVGG-A0 \
 --compress_rate [0.]+[0.25]*6+[0.35]*14  \
---gpu 2
+--gpu 6
 ```
 
 #### RepVGG-A0 on GC10-DET dataset
@@ -195,7 +195,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_RepVGG-A0 \
 --hierarchical_conv_prefix ./HC_RepVGG-A0 \
 --compress_rate [0.]+[0.25]*6+[0.35]*14  \
---gpu 2
+--gpu 6
 ```
 
 #### VGG-16 on X-SDD dataset
@@ -211,7 +211,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_vgg_16_bn \
 --hierarchical_conv_prefix ./HC_vgg_16_bn \
 --compress_rate [0.4]*5+[0.5]*7  \
---gpu 2
+--gpu 6
 ```
 
 #### VGG-16 on GC10-DET dataset
@@ -227,7 +227,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_vgg_16_bn \
 --hierarchical_conv_prefix ./HC_vgg_16_bn \
 --compress_rate [0.4]*5+[0.5]*7  \
---gpu 2
+--gpu 6
 ```
 
 
@@ -245,7 +245,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_DDDN \
 --hierarchical_conv_prefix ./HC_DDDN \
 --compress_rate [0.]+[0.2]+[0.2]*2+[0.25]*4+[0.25]*8+[0.30]*8+[0.30]*2 \
---gpu 2 
+--gpu 6
 ```
 
 #### DDDN on GC10-DET dataset
@@ -262,7 +262,7 @@ python train_pruning_CFP.py \
 --rank_conv_prefix ./Rank_DDDN \
 --hierarchical_conv_prefix ./HC_DDDN \
 --compress_rate [0.]+[0.2]+[0.2]*2+[0.2]*4+[0.25]*8+[0.25]*8+[0.25]*2 \
---gpu 2 
+--gpu 6 
 ```
 
 ### 7. Evaluate Pruned Model
@@ -282,7 +282,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_results/RepVGGA0/model_best.pth.tar \
 --compress_rate [0.]+[0.25]*6+[0.35]*14  \
---gpu 2
+--gpu 6
 ```
 
 #### RepVGG-A0 on GC10-DET dataset
@@ -300,7 +300,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_result/RepVGGA0/model_best.pth.tar \
 --compress_rate [0.]+[0.25]*6+[0.35]*14  \
---gpu 2
+--gpu 6
 ```
 
 #### VGG-16 on X-SDD dataset
@@ -318,7 +318,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_results/VGG16/model_best.pth.tar \
 --compress_rate [0.4]*5+[0.5]*7  \
---gpu 2
+--gpu 6
 ```
 
 #### VGG-16 on GC10-DET dataset
@@ -336,7 +336,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_result/VGG16/model_best.pth.tar \
 --compress_rate [0.4]*5+[0.5]*7  \
---gpu 2
+--gpu 6
 ```
 
 #### DDDN on X-SDD dataset
@@ -355,7 +355,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_results/DDDN/model_best.pth.tar \
 --compress_rate  [0.]+[0.2]+[0.2]*2+[0.25]*4+[0.25]*8+[0.30]*8+[0.30]*2 \
---gpu 3 
+--gpu 6 
 ```
 
 
@@ -375,7 +375,7 @@ python train_pruning_CFP.py \
 --test_only True \
 --test_model_dir ./experimental_result/DDDN/model_best.pth.tar \
 --compress_rate [0.]+[0.2]+[0.2]*2+[0.2]*4+[0.25]*8+[0.25]*8+[0.25]*2 \
---gpu 3 
+--gpu 6 
 ```
 
 
