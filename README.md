@@ -3,6 +3,18 @@
 
 ## Usage
 
+
+
+### Dataset
+
+
+- [X-SDD](https://pan.baidu.com/s/1UmUNoKhHkQNM3lT-HvaUuw)
+   https://pan.baidu.com/s/1UmUNoKhHkQNM3lT-HvaUuw 提取码:6666
+- [GC10-DET](https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ)
+   https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ 提取码:7f0e
+- [ELPV-DC](https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g)
+   https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g 提取码:4282
+
 ### 1. Train Baseline
 
 
@@ -368,17 +380,12 @@ python train_pruning_CFP.py \
 
 We provide our pretrained models and pruned models. Moreover, we provide the results of matrix rank and FCC.
 
-- [Pre-trained Models](https://drive.google.com/drive/folders/1b--dZlvKUUu0rXqMYAtIr0ynHQHuEWDI?usp=sharing)
-   - GC10-DET: VGG-16, RepVGG-A0, DDDN.
-   - X-SDD: VGG-16, RepVGG-A0, DDDN.
-   - ELPV-DC: VGG-16, RepVGG-A0, DDDN.
-  
-- [Pruned Models](https://drive.google.com/drive/folders/1b--dZlvKUUu0rXqMYAtIr0ynHQHuEWDI?usp=sharing)
-   - GC10-DET: VGG-16, RepVGG-A0, DDDN.
-   - X-SDD: VGG-16, RepVGG-A0, DDDN.
-   - ELPV-DC: VGG-16, RepVGG-A0, DDDN.
-- [FCC results](https://drive.google.com/drive/folders/1b--dZlvKUUu0rXqMYAtIr0ynHQHuEWDI?usp=sharing)
+- [X-SDD](https://pan.baidu.com/s/1uaT0j2FzbsoTYV1WnBbv1w)
+   https://pan.baidu.com/s/1uaT0j2FzbsoTYV1WnBbv1w 提取码:1ui5
+- [GC10-DET](https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ)
+   https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ 提取码:7f0e
+- [ELPV-DC](https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g)
+   https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g 提取码:4282
 
-- [Matrix rank](https://drive.google.com/drive/folders/1b--dZlvKUUu0rXqMYAtIr0ynHQHuEWDI?usp=sharing)
 
 
