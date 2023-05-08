@@ -9,10 +9,13 @@
 
 
 - [X-SDD](https://pan.baidu.com/s/1UmUNoKhHkQNM3lT-HvaUuw)
+
    https://pan.baidu.com/s/1UmUNoKhHkQNM3lT-HvaUuw 提取码:6666
 - [GC10-DET](https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ)
+
    https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ 提取码:7f0e
 - [ELPV-DC](https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g)
+
    https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g 提取码:4282
 
 ### 1. Train Baseline
