@@ -384,10 +384,13 @@ python train_pruning_CFP.py \
 We provide our pretrained models and pruned models. Moreover, we provide the results of matrix rank and FCC.
 
 - [X-SDD](https://pan.baidu.com/s/1uaT0j2FzbsoTYV1WnBbv1w)
+
    https://pan.baidu.com/s/1uaT0j2FzbsoTYV1WnBbv1w 提取码:1ui5
 - [GC10-DET](https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ)
+
    https://pan.baidu.com/s/1_P2fOt5LV6Y5CA4ZVSMcWQ 提取码:7f0e
 - [ELPV-DC](https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g)
+
    https://pan.baidu.com/s/1iAdlWv1C0sYJ7XEhH7Em8g 提取码:4282
 
 
